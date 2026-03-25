@@ -67,7 +67,19 @@ description: 生成标准化Java技术文档，包含功能概述、快速开始
 
 ### 2.2 配置文件
 
-[配置项说明]
+[配置项说明。对于 Spring Boot 风格项目，需同时提供 YAML 和 Properties 两种格式的配置示例]
+
+**application.yml**：
+
+```yaml
+# YAML格式配置
+```
+
+**application.properties**：
+
+```properties
+# Properties格式配置
+```
 
 ### 2.3 配置类
 
@@ -121,6 +133,7 @@ description: 生成标准化Java技术文档，包含功能概述、快速开始
 2. **关键方法重点说明**：对复杂方法添加注释说明
 3. **保留包结构**：保持正确的package和import声明
 4. **移除测试代码**：除非文档专门针对测试
+5. **Spring Boot 配置双格式**：对于 Spring Boot 项目，在 `### 2.2 配置文件` 章节中必须同时提供 `application.yml` 和 `application.properties` 两种格式的配置示例，确保配置项内容完全一致
 
 ## 修改已有文档规则
 
@@ -128,6 +141,7 @@ description: 生成标准化Java技术文档，包含功能概述、快速开始
 - **修正技术错误**：如果发现明显的技术谬误，必须指正并修改
 - **统一编号格式**：为所有标题重新添加标准序号，保持格式一致
 - **结构标准化**：将原有内容整合到标准文档结构中，不丢弃有价值信息
+- **Spring Boot 配置双格式补充**：修改文档时，检查 `### 2.2 配置文件` 章节。若针对 Spring Boot 项目仅有 YAML 格式则补充 Properties 格式，若仅有 Properties 格式则补充 YAML 格式，两种格式的配置项必须完全一致
 
 ## 使用场景
 
