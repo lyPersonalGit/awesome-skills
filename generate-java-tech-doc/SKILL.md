@@ -45,7 +45,8 @@ description: 生成标准化Java技术文档，包含功能概述、快速开始
 
 ## 文档模板
 
-始终使用标准模板结构，模板文件位于 `assets/template.md`。生成文档时读取此模板文件并填充内容。
+- **文档结构**：严格按照 `assets/template.md` 定义的结构生成文档
+- **输出案例**：参考 `references/output-demo.md` 作为示例模板
 
 ## 代码提取规则
 
