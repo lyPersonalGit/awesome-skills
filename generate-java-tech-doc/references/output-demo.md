@@ -5,9 +5,9 @@
 [项目解决的问题]
 
 核心特性：
-- 特性1：描述
-- 特性2：描述
-- 特性3：描述
+- 特性 1：描述
+- 特性 2：描述
+- 特性 3：描述
 
 ## 2 快速开始
 
@@ -33,15 +33,22 @@ implementation 'com.example:example-library:1.0.0'
 
 如果需要配置文件，在这里说明配置项：
 
+**application.yml**：
 ```yaml
 example:
   enabled: true
   config-option: value
 ```
 
+**application.properties**：
+```properties
+example.enabled=true
+example.config-option=value
+```
+
 ### 2.3 配置类
 
-如果需要Java配置类，在这里展示：
+如果需要 Java 配置类，在这里展示：
 
 ```java
 @Configuration
@@ -102,13 +109,13 @@ processed: hello
 
 ## 5 常见问题
 
-### 5.1 Q1: 项目遇到XX问题应该怎么解决？
+### 5.1 Q1：项目遇到 XX 问题应该怎么解决？
 
-A: 给出具体解决方案，步骤说明或配置修改。
+A：给出具体解决方案，步骤说明或配置修改。
 
-### 5.2 Q2: 如何配置XX功能？
+### 5.2 Q2：如何配置 XX 功能？
 
-A: 给出配置方法和示例。
+A：给出配置方法和示例。
 
 ## 6 最佳实践
 
@@ -118,5 +125,5 @@ A: 给出配置方法和示例。
 
 ## 7 参考资料
 
-- [项目GitHub地址](https://github.com/example/project)
+- [项目 GitHub 地址](https://github.com/example/project)
 - [相关文章链接](https://example.com/article.html)
