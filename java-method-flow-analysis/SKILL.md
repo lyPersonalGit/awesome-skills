@@ -51,7 +51,7 @@ metadata:
 ## Step 3 — 生成分析文档
 
 ### 3.1 加载模板
-Load `references/example-output.md` for the required output structure and section order. **Every section in the template must be preserved in the output, even if empty.**
+加载 `references/example-output.md` 以获取所需的输出结构和章节顺序。**模板中的每个章节都必须保留在输出中，即使为空。**
 
 ### 3.2 核心输出模块（必须全部包含）
 
@@ -62,7 +62,7 @@ Load `references/example-output.md` for the required output structure and sectio
    - 如果入口是普通方法：展示方法签名、功能描述、输入参数
 2. **完整调用堆栈** - 树形结构展示从入口到最深层完整调用链
 3. **时序图** - *（Mermaid 格式）* 使用sequenceDiagram展示多参与者交互流程
-4. **体系结构分析** - 如果使用了设计模式（模板方法、策略等），画出类层次结构
+4. **体系结构分析** - 如果使用了设计模式（模板方法、策略、观察者等），画出类层次结构
 5. **关键业务流程说明** - 特殊业务规则（如重复处理防护、异步通知、缓存策略），可附上项目源代码中对应关键部分帮助理解
 6. **状态码定义** - 使用**一个表格**，三列结构整理所有状态码及其含义：`字段 | 值 | 含义`（仅当接口有返回状态码时展示）。同一个字段有多个值时，字段列只在第一行展示，后续行留空不重复填写。
 7. **异常处理机制** - 各个方法如何处理异常，具体到方法级别说明
@@ -153,7 +153,7 @@ sequenceDiagram
 
 ## Step 4 — 重构建议
 
-1. **加载检查清单**：加载 `references/checklist.md` 获取完整的重构检查清单。
+1. **加载检查清单**：加载 `references/refactoring-basic.md`、`references/refactoring-encapsulation.md`、`references/refactoring-migration.md` 获取完整的重构检查清单。
 
 2. **分析代码**：对照检查清单中的每一项分析代码。
 

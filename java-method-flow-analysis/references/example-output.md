@@ -174,7 +174,7 @@ classDiagram
 
 描述特殊业务规则...
 
-对应项目代码片段（`com.example.Service#method`）：
+对应项目代码片段（`com.example.Service#method:line_number`）：
 ```java
 // 这是对应处理代码
 if (condition) {
@@ -215,9 +215,9 @@ if (condition) {
 
  ## 九、重构建议 *（可选）*
 
- | 序号 | 重构类型 | 位置 | 问题描述 | 重构建议 | 优先级 |
- |------|----------|------|------|----------|------|
- | 1 | **提炼函数** | `ClassName.methodName()` 行 `N~M` | 问题描述 | 提炼为 `functionName()`，说明职责 | ⭐⭐⭐⭐⭐ (5星最高优先级必须改) |
- | 2 | **提炼变量** | `ClassName.methodName()` 行 `N` | 条件表达式太长 | 提炼为 `boolean variableName = condition;` | ⭐⭐⭐ (3星中等优先级) |
+| 序号 | 重构类型 | 位置 | 问题描述 | 重构建议 | 优先级 |
+|------|----------|------|------|----------|------|
+| 1 | **提炼函数** | `ClassName#methodName:line_number` | 问题描述 | 提炼为 `functionName()`，说明职责 | ⭐⭐⭐⭐⭐ (5星最高优先级必须改) |
+| 2 | **提炼变量** | `ClassName#methodName:line_number` | 条件表达式太长 | 提炼为 `boolean variableName = condition;` | ⭐⭐⭐ (3星中等优先级) |
 
  *星级代表重构优先级，1星最低（可选优化），5星最高（强烈建议重构）*
