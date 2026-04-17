@@ -1,6 +1,6 @@
 ---
 name: generate-java-tech-doc
-description: 生成标准化 Java 技术文档，包含功能概述、快速开始、实现方案、使用示例、常见问题、最佳实践、参考资料等内容。可以根据 Java 项目中的文件生成新文档，也可以改造已有的技术文档。使用当用户需要生成 Java 技术文档、Java 项目文档、Java 库文档时。
+description: 生成标准化 Java 技术文档，包含功能概述、快速开始、实现方案、使用示例、常见问题、最佳实践、参考资料等完整章节。可以根据 Java 项目中的源码文件生成新文档，也可以改造更新已有的技术文档。当用户需要生成 Java 技术文档、Java 项目文档、Java 库文档、API 文档、框架文档、工具类文档、开源项目文档、Spring Boot 项目文档时触发。只要提到写 Java 项目的技术文档就应该触发这个技能。
 metadata:
   pattern: generator
   output-format: markdown
