@@ -1,0 +1,6 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "node -e \"const os=require('os');const bs=String.fromCharCode(92);let d='';try{d=JSON.parse(require('fs').readFileSync(0,'utf-8'))}catch{console.log('[?] | [?] | [?%]');process.exit(0)}let c=d?.workspace?.current_dir||'';if(c){const h=os.homedir();if(c.startsWith(h))c='~'+c.slice(h.length);c=c.split(bs).join('/').split('C:').join('').split('c:').join('');while(c[0]==='/')c=c.slice(1);if(c.length>30){const p=c.split('/');if(p.length>3)c=p.slice(0,2).join('/')+'/.../'+p.slice(-1).join('/')}}else{c='?'}const m=d?.model?.id||d?.model?.display_name||'?';const u=d?.context_window?.used_percentage;const p=u!==undefined?Math.floor(u):'?';console.log('['+c+'] | ['+m+'] | '+p+'% context')\""
+  }
+}
