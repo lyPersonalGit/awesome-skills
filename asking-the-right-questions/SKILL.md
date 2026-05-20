@@ -1,5 +1,5 @@
 ---
-name: asking-the-right-questions-skill
+name: asking-the-right-questions
 description: 《学会提问》批判性思维框架。5个核心心智模型+8条决策启发式，教你从被动信息接收者变成主动提问者。适用于：媒体鉴别、商业决策、学术评估、沟通优化。触发词：学会提问、批判性思维、如何提问、识别谬误、证据评估。
 version: 1.0.0
 created: 2026-05-12
